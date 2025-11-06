@@ -52,7 +52,7 @@ double _geol_f64ld(const char* str) {
 }
 
 size_t _geol_len_from_header(const char* str) {
-	return 2 * _geol_i32ld(&str[24]);
+	return 2 * _geol_i32bd(&str[24]);
 }
 
 void _geol_shp_point_decode(geol_record_t* record, const char* str) {
