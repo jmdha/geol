@@ -4,6 +4,9 @@
 #define GEOL_PROJ_IMPLEMENTATION
 #include "../geol_proj.h"
 
+#define GEOL_DIST_IMPLEMENTATION
+#include "../geol_dist.h"
+
 typedef struct vec3 {
 	double x, y, z;
 } vec3_t;
